@@ -1,9 +1,9 @@
 import React from "react";
 
-const ItemsContainer = () => {
+const ItemsContainer = (props) => {
     return(
         <div className="container-fluid bg-light">
-            <h1>Items coming soon...</h1>
+            <h1>{props.nombre} coming soon...</h1>
 
         </div>
     )

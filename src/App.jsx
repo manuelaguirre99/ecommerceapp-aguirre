@@ -10,7 +10,7 @@ function App() {
       <CartWidget/>
       </NavBar>
 
-      <ItemsContainer/>
+      <ItemsContainer nombre="Boxes"/>
     </div>
   );
 }
